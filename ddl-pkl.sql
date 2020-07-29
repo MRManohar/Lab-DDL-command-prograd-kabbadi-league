@@ -21,7 +21,11 @@ name varchar(50)
 );
 
 -- 5. **Create table skill**
-create table skill as(select * from city);
+create table skill (
+ID int,
+name varchar(50)
+);
+
 
 -- 6. **Create table team**
 create table team(
